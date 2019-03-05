@@ -4,12 +4,12 @@ Then add bot to server: https://discordapp.com/oauth2/authorize?client_id=YOUR_C
 
 create a auth.json file with the following info in it:
 
-'''
+```json
 {
   "token": "BOT-TOKEN",
   "prefix": "om"
 }
-'''
+```
 
 Install node.js
 
