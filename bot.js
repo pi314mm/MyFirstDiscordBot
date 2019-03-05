@@ -41,7 +41,7 @@ client.on("message", async message => {
   
   if(message.content ==="Om" || message.content ==="om"){
     message.channel.send("Om");
-    return
+    return;
   }
   
   // Also good practice to ignore any message that does not start with our prefix, 
